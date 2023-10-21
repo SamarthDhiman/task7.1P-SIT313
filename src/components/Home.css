@@ -1,0 +1,67 @@
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color:#4CAF50; 
+    padding: 10px;
+    color: #333;
+    border-radius: 40px;
+  }
+  
+  .heading {
+    width: 30%;
+    text-align: left;
+  }
+  
+  .heading h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .search {
+    width: 40%;
+    padding: 10px;
+  }
+  
+  .header-right {
+    flex: 1;
+    text-align: right;
+  }
+  
+  /* Styling for a search input field */
+  .search input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  /* Styling for the search button (blue) */
+  .search button {
+    background-color:#4CAF50 ; /* Blue button color */
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* Styling for the sign-up button (red) */
+  .sign-up {
+    width: max-content;
+    margin: 10px auto;
+    text-align: center;
+  }
+  
+  /* Styling for a sign-up button (red) */
+  .sign-up button {
+    background-color:#4CAF50; 
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  
